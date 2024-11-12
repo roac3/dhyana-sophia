@@ -1,0 +1,32 @@
+header{
+    background-image: url('../../assets/header-texture.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 5px 0;
+
+    .inner-header{
+        display: flex;
+        justify-content: space-between;
+        .logo{
+            object-fit: contain;
+        }
+
+        ul.menu{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+            align-items: center;
+            color: white;
+            font-family: 'Cailyne';
+            font-weight: lighter;
+            font-size: 26px;
+        }
+    } 
+}
